@@ -47,6 +47,7 @@ img {
 
 }
 .paymentdiv {
+    width: 65%;
     margin-top: 10px;
     padding: 10px;
     border-style: solid;
@@ -62,23 +63,27 @@ img {
    font-weight: bold;
 }
 .tablecol{
-    width: 15%;
+    width: 16.66%;
 }
 .halfwidth{
     width: 90%;
 }
+.inputwidth {
+    width: 95%
+}
 
 .btn{
-    width: 110%;
+    width: 100%;
     background-color: gray;
     color:white;
     font-size: small;
 
 }
 
-
-.cart-table {
+.cart-table-div {
     width: 30%;
+}
+.cart-table {
     height:80px;
     border-style: solid;
     margin: 10px;

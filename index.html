@@ -52,10 +52,10 @@
                 </tr>
 
                 <tr>
-                    <td class="paytitle" colspan="2">
+                    <td class="tablecol paytitle" colspan="2">
                         Billing Address
                     </td>
-                    <td class="paytitle" colspan="2">
+                    <td class="tablecol paytitle" colspan="2">
                         Payment
                     </td>
                     <td></td>
@@ -63,20 +63,20 @@
                 </tr>
 
                 <tr>
-                    <td colspan="2" >
+                    <td class="tablecol" colspan="2" >
                         <i class="fa fa-user" aria-hidden="true"></i>
                         <label for="fullname">Full Name</label>
                     </td>
-                    <td colspan="2">
+                    <td class="tablecol" colspan="2">
                         <label for="acceptcard">Accept Card</label>
                     </td>
-                    <td></td>
-                    <td></td>
+                    <td class="tablecol"></td>
+                    <td class="tablecol"></td>
                 </tr>
 
                 <tr>
                     <td colspan="2">
-                        <input class="fullname" type="text"  placeholder ="John M. Doe" required/></input>
+                        <input class="fullname inputwidth" type="text"  placeholder ="John M. Doe" required/></input>
                     </td>
                     <td colspan="2">
                         <i class="fa fa-cc-visa" aria-hidden="true"></i>
@@ -100,10 +100,10 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <input class="email" type="text" placeholder ="john@example.com"required></input>
+                        <input class="email inputwidth" type="text" placeholder ="john@example.com"required></input>
                     </td>
                     <td colspan="2">
-                        <input class="nameoncard" type="text"  placeholder ="Joe More Doe" required/></input>
+                        <input class="nameoncard inputwidth" type="text"  placeholder ="Joe More Doe" required/></input>
                     </td>
                     <td></td>
                     <td></td>
@@ -123,10 +123,10 @@
 
                 <tr>
                     <td colspan="2">
-                        <input class="address" type="text"  placeholder ="830 Hillview" required/></input>
+                        <input class="address inputwidth" type="text"  placeholder ="830 Hillview" required/></input>
                     </td>
                     <td colspan="2">
-                        <input class="creditcardnumber" type="text"  placeholder="1111-1111-1111-1111" required/></input>
+                        <input class="creditcardnumber inputwidth" type="text"  placeholder="1111-1111-1111-1111" required/></input>
                     </td>
                     <td></td>
                     <td></td>
@@ -147,10 +147,10 @@
 
                 <tr>
                     <td colspan="2">
-                        <input class="city" type="text"  placeholder ="Milpitas"> </input>
+                        <input class="city inputwidth" type="text"  placeholder ="Milpitas"> </input>
                     </td>
                     <td colspan="2">
-                        <input class="expmonth" type="text"  placeholder ="September"> </input>
+                        <input class="expmonth inputwidth" type="text"  placeholder ="September"> </input>
                     </td>
                     <td></td>
                     <td></td>
@@ -207,73 +207,74 @@
 
         </div>
 
-        <table class="cart-table">
+        <div class="cart-table-div">
+            <table class="cart-table">
 
-            <tr>
-                <td class="paytitle" >
-                    Cart
-                </td>
-                <td colspan="1">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>4
-                </td>
-            </tr>
+                <tr>
+                    <td class="paytitle" >
+                        Cart
+                    </td>
+                    <td colspan="1">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>4
+                    </td>
+                </tr>
 
-            <tr>
-                <td class="item" >
-                    Item 1
-                </td>
-                <td class="price">
-                    $5
-                </td>
-            </tr>
+                <tr>
+                    <td class="item" >
+                        Item 1
+                    </td>
+                    <td class="price">
+                        $5
+                    </td>
+                </tr>
 
-            <tr>
-                <td class="item" >
-                    Item 2
-                </td>
-                <td class="price">
-                    $15
-                </td>
-            </tr>
-           
-            <tr>
-                <td class="item" >
-                    Item 3
-                </td>
-                <td class="price">
-                    $8
-                </td>
-            </tr>
+                <tr>
+                    <td class="item" >
+                        Item 2
+                    </td>
+                    <td class="price">
+                        $15
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="item" >
+                        Item 3
+                    </td>
+                    <td class="price">
+                        $8
+                    </td>
+                </tr>
 
-            <tr>
-                <td class="item" >
-                    Item 4
-                </td>
-                <td class="price">
-                    $2
-                </td>
-                <td>
-                    <hr>
-                </td>
-            </tr>
+                <tr>
+                    <td class="item" >
+                        Item 4
+                    </td>
+                    <td class="price">
+                        $2
+                    </td>
+                    <td>
+                        <hr>
+                    </td>
+                </tr>
 
-            <tr>
-                <td colspan="2">
-                    <hr>
-                </td>
-            </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr>
+                    </td>
+                </tr>
 
-            <tr>
-                <td class="item" >
-                    Total
-                </td>
-                <td class="price">
-                    $30
-                </td>
-            </tr>
+                <tr>
+                    <td class="item" >
+                        Total
+                    </td>
+                    <td class="price">
+                        $30
+                    </td>
+                </tr>
 
-        </table>
-
+            </table>
+        </div>
     </div>
 </body>
 
